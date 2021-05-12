@@ -1,15 +1,15 @@
 # ระบบสำรวจนก Birds Exploring
 
-## ระบบจัดการหลังบ้านสำหรับแอปพลิเคชันสำรวจนก Birds Exploring
+### ระบบจัดการหลังบ้านสำหรับแอปพลิเคชันสำรวจนก Birds Exploring
 
-### Tools
+#### Tools
 
 - Kotlin
 - MySQL
 - Node.js
 - Android Studio
 
-### Installation
+#### Installation
 
 1. Dump Database trader.sql ใน foler database ลงใน PHPMyadmin
 2. ใช้ Android Studio เปิด โฟลเดอร์ trader และรันลง Emulator
