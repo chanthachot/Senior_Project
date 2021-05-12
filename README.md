@@ -78,7 +78,7 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/11.png"/>
+  <img src="ui_images/web/11.png" width="550"/>
 </p>
 
 > หน้าแรก
