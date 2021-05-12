@@ -30,19 +30,19 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/3.png"/>
+  <img src="ui_images/web/3.png" width="500"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/4.png"/>
+  <img src="ui_images/web/4.png" width="500"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/5.png"/>
+  <img src="ui_images/web/5.png" width="450"/>
 </p>
 
 > หน้าแรก
@@ -54,25 +54,25 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/7.png"/>
+  <img src="ui_images/web/7.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/8.png"/>
+  <img src="ui_images/web/8.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/9.png"/>
+  <img src="ui_images/web/9.png" />
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/10.png"/>
+  <img src="ui_images/web/10.png" width="450"/>
 </p>
 
 > หน้าแรก
@@ -84,19 +84,19 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/12.png"/>
+  <img src="ui_images/web/12.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/13.png"/>
+  <img src="ui_images/web/13.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/14.png"/>
+  <img src="ui_images/web/14.png" width="450"/>
 </p>
 
 > หน้าแรก
@@ -108,25 +108,25 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/16.png"/>
+  <img src="ui_images/web/16.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/17.png"/>
+  <img src="ui_images/web/17.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/18.png"/>
+  <img src="ui_images/web/18.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/19.png"/>
+  <img src="ui_images/web/19.png" width="450"/>
 </p>
 
 > หน้าแรก
@@ -138,13 +138,13 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/21.png"/>
+  <img src="ui_images/web/21.png" width="500"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/22.png"/>
+  <img src="ui_images/web/22.png" width="450"/>
 </p>
 
 > หน้าแรก
@@ -156,13 +156,13 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/24.png"/>
+  <img src="ui_images/web/24.png" width="450"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/25.png"/>
+  <img src="ui_images/web/25.png" width="450"/>
 </p>
 
 > หน้าแรก
@@ -174,13 +174,13 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/27.png"/>
+  <img src="ui_images/web/27.png" width="400"/>
 </p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/28.png"/>
+  <img src="ui_images/web/28.png" width="400"/>
 </p>
 
 > หน้าแรก
@@ -192,7 +192,7 @@
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/web/30.png"/>
+  <img src="ui_images/web/30.png" width="400"/>
 </p>
 
 ---
