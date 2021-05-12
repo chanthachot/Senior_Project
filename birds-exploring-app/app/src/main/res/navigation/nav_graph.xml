@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/birdFamilyFragment">
+
+    <fragment
+        android:id="@+id/birdFamilyFragment"
+        android:name="com.example.finaproject.Fragment.BirdFamilyFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_bird_family">
+        <action
+            android:id="@+id/action_birdFamilyFragment_to_birdsFragment"
+            app:destination="@id/birdsFragment" />
+        <action
+            android:id="@+id/action_birdFamilyFragment_to_scanFragment"
+            app:destination="@id/scanFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.finaproject.Fragment.ExploreFragment"
+        android:label="สำรวจ"
+        tools:layout="@layout/fragment_explore">
+        <action
+            android:id="@+id/action_exploreFragment_to_birdDetailFragment"
+            app:destination="@id/birdDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/foundBirdFragment"
+        android:name="com.example.finaproject.Fragment.FoundBirdFragment"
+        android:label="พบนก"
+        tools:layout="@layout/fragment_found_bird">
+
+        <action
+            android:id="@+id/action_foundBirdFragment_to_addFoundBirdPublic"
+            app:destination="@id/addFoundBirdPublic" />
+        <action
+            android:id="@+id/action_foundBirdFragment_to_fbpublic_detail_fragment"
+            app:destination="@id/fbpublic_detail_fragment" />
+        <action
+            android:id="@+id/action_foundBirdFragment_to_fbprivate_detail_fragment"
+            app:destination="@id/fbprivate_detail_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/birdsFragment"
+        android:name="com.example.finaproject.Fragment.BirdsFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_birds">
+        <argument
+            android:name="id"
+            android:defaultValue="1"
+            app:argType="integer" />
+        <argument
+            android:name="bird_family_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_birdsFragment_to_birdDetailFragment"
+            app:destination="@id/birdDetailFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/birdDetailFragment"
+        android:name="com.example.finaproject.Fragment.BirdDetailFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_bird_detail">
+        <argument
+            android:name="bird_id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/foundBirdPublicFragment"
+        android:name="com.example.finaproject.Fragment.FoundBirdPublicFragment"
+        android:label="พบนก (สาธารณะ)"
+        tools:layout="@layout/fragment_found_bird_public" />
+    <fragment
+        android:id="@+id/foundBirdPrivateFragment"
+        android:name="com.example.finaproject.Fragment.FoundBirdPrivateFragment"
+        android:label="พบนก (ส่วนตัว)"
+        tools:layout="@layout/fragment_found_bird_private" />
+    <fragment
+        android:id="@+id/fbpublic_detail_fragment"
+        android:name="com.example.finaproject.Fragment.fbpublic_detail_fragment"
+        android:label="พบนก (สาธารณะ)"
+        tools:layout="@layout/fragment_fbpublic_detail">
+
+        <argument
+            android:name="foundbird_id"
+            app:argType="integer" />
+
+        <argument
+            android:name="firstname"
+            app:argType="string" />
+
+        <argument
+            android:name="lastname"
+            app:argType="string" />
+
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+        <argument
+            android:name="bird_family_name"
+            app:argType="string" />
+
+        <argument
+            android:name="bird_name"
+            app:argType="string" />
+
+        <argument
+            android:name="amount"
+            app:argType="string" />
+
+        <argument
+            android:name="lat"
+            app:argType="string" />
+
+        <argument
+            android:name="lng"
+            app:argType="string" />
+
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="time"
+            app:argType="string" />
+        <argument
+            android:name="mouth"
+            app:argType="string" />
+        <argument
+            android:name="body"
+            app:argType="string" />
+        <argument
+            android:name="tail"
+            app:argType="string" />
+        <argument
+            android:name="wings"
+            app:argType="string" />
+        <argument
+            android:name="legs"
+            app:argType="string" />
+
+        <argument
+            android:name="other"
+            app:argType="string" />
+
+        <argument
+            android:name="place"
+            app:argType="string" />
+
+        <argument
+            android:name="uid"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fbpublic_detail_fragment_to_edit_fb_detail_public"
+            app:destination="@id/edit_fb_detail_public" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/addFoundBirdPublic"
+        android:name="com.example.finaproject.Fragment.AddFoundBirdPublic"
+        android:label="เลือกวงศ์นก"
+        tools:layout="@layout/fragment_add_found_bird_public">
+        <action
+            android:id="@+id/action_addFoundBirdPublic_to_subAddFoundBirdPublic"
+            app:destination="@id/subAddFoundBirdPublic" />
+    </fragment>
+    <fragment
+        android:id="@+id/subAddFoundBirdPublic"
+        android:name="com.example.finaproject.Fragment.SubAddFoundBirdPublic"
+        android:label="เลือกนก"
+        tools:layout="@layout/fragment_sub_add_found_bird_public">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="birdFamilyName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_subAddFoundBirdPublic_to_selectMapInFoundBirdPublic"
+            app:destination="@id/selectMapInFoundBirdPublic" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectMapInFoundBirdPublic"
+        android:name="com.example.finaproject.Fragment.SelectMapInFoundBirdPublic"
+        android:label="เลือกสถานที่"
+        tools:layout="@layout/fragment_select_map_in_found_bird_public">
+        <argument
+            android:name="birdFamilyName"
+            app:argType="string" />
+        <argument
+            android:name="birdName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_selectMapInFoundBirdPublic_to_saveDetailFoundBirdPublic"
+            app:destination="@id/saveDetailFoundBirdPublic" />
+    </fragment>
+    <fragment
+        android:id="@+id/saveDetailFoundBirdPublic"
+        android:name="com.example.finaproject.Fragment.SaveDetailFoundBirdPublic"
+        android:label="รายละเอียด"
+        tools:layout="@layout/fragment_save_detail_found_bird_public">
+        <argument
+            android:name="place"
+            app:argType="string" />
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lng"
+            app:argType="string" />
+        <argument
+            android:name="bird_family_name"
+            app:argType="string" />
+        <argument
+            android:name="bird_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_saveDetailFoundBirdPublic_to_foundBirdFragment"
+            app:destination="@id/foundBirdFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/edit_fb_detail_public"
+        android:name="com.example.finaproject.Fragment.edit_fb_detail_public"
+        android:label="edit_fb_detail_public">
+        <action
+            android:id="@+id/action_edit_fb_detail_public_to_foundBirdPublicFragment"
+            app:destination="@id/foundBirdPublicFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <fragment
+        android:id="@+id/routeFragment"
+        android:name="com.example.finaproject.Fragment.RouteFragment"
+        android:label="เส้นทาง"
+        tools:layout="@layout/fragment_route">
+        <action
+            android:id="@+id/action_routeFragment_to_showRouteMap"
+            app:destination="@id/showRouteMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/fbprivate_detail_fragment"
+        android:name="com.example.finaproject.Fragment.fbprivate_detail_fragment"
+        android:label="พบนก (ส่วนตัว)">
+        <argument
+            android:name="foundbird_id"
+            app:argType="integer" />
+
+        <argument
+            android:name="firstname"
+            app:argType="string" />
+
+        <argument
+            android:name="lastname"
+            app:argType="string" />
+
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+        <argument
+            android:name="bird_family_name"
+            app:argType="string" />
+
+        <argument
+            android:name="bird_name"
+            app:argType="string" />
+
+        <argument
+            android:name="amount"
+            app:argType="string" />
+
+        <argument
+            android:name="lat"
+            app:argType="string" />
+
+        <argument
+            android:name="lng"
+            app:argType="string" />
+
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="time"
+            app:argType="string" />
+
+        <argument
+            android:name="mouth"
+            app:argType="string" />
+        <argument
+            android:name="body"
+            app:argType="string" />
+        <argument
+            android:name="tail"
+            app:argType="string" />
+        <argument
+            android:name="wings"
+            app:argType="string" />
+        <argument
+            android:name="legs"
+            app:argType="string" />
+
+        <argument
+            android:name="other"
+            app:argType="string" />
+
+
+        <argument
+            android:name="place"
+            app:argType="string" />
+
+        <argument
+            android:name="uid"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/showRouteMap"
+        android:name="com.example.finaproject.Fragment.ShowRouteMap"
+        android:label="เส้นทาง"
+        tools:layout="@layout/fragment_show_route_map">
+        <argument
+            android:name="path_id"
+            app:argType="string" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_foundBirdFragment"
+        app:destination="@id/foundBirdFragment" />
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.example.finaproject.Fragment.ScanFragment"
+        android:label="ข้อมูลนกใน QR Code"
+        tools:layout="@layout/fragment_scan" >
+        <argument
+            android:name="qrcode"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_scanFragment_to_birdDetailFragment"
+            app:destination="@id/birdDetailFragment" />
+    </fragment>
+</navigation>

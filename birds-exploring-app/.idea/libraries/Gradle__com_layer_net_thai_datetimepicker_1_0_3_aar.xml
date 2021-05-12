@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.layer-net:thai-datetimepicker:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d2f1d7ab63cb11bca2d7db3a3725d4b/jetified-thai-datetimepicker-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d2f1d7ab63cb11bca2d7db3a3725d4b/jetified-thai-datetimepicker-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d2f1d7ab63cb11bca2d7db3a3725d4b/jetified-thai-datetimepicker-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.layer-net/thai-datetimepicker/1.0.3/630d738cc1fb71a340513c3f7925bff888a69ff4/thai-datetimepicker-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.layer-net/thai-datetimepicker/1.0.3/a2489fa3021d368a4b4795e6e97368c7d6489547/thai-datetimepicker-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

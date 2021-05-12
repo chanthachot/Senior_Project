@@ -1,0 +1,99 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/text_point_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="ชื่อเส้นทาง : "
+                android:textColor="#1C1C1C"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/point_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/text_point_name"
+                android:fontFamily="@font/kanit_regular"
+                android:text="point_name"
+                android:textColor="#1C1C1C"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/text_qrcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/kanit_regular"
+                android:text=""
+                android:textColor="#1C1C1C"
+                android:textSize="16dp" />
+
+            <RelativeLayout
+                android:id="@+id/timestamp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_qrcode"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/text_timestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kanit_regular"
+                    android:text="วัน/เวลาที่สร้าง : "
+                    android:textColor="#1C1C1C"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/timestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/text_timestamp"
+                    android:fontFamily="@font/kanit_regular"
+                    android:text="timestamp"
+                    android:textColor="#1C1C1C"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_qrcode"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/timestamp_layout" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SaveDetailFoundBirdPublic">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/select_image"
+                android:layout_width="280dp"
+                android:layout_height="246dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_baseline_image_24"
+                android:visibility="visible" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/showImage"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="246dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:visibility="gone" />-->
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselViewSaveDetail"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:visibility="gone"
+                app:autoPlay="false" />
+
+
+            <RelativeLayout
+                android:id="@+id/countNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/numberTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="จำนวน"
+                    android:textSize="16sp"></TextView>
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/elegantBtn"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/numberTxt"
+                    app:backGroundColor="#CFCFCF"
+                    app:textColor="#474747"
+                    app:textSize="6dp"></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/ic_location"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_location">
+
+                    </ImageView>
+
+                    <EditText
+                        android:id="@+id/place"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:backgroundTint="#676767"
+                        android:fontFamily="@font/kanit_regular"
+                        android:inputType="text"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/ic_date"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_calendar">
+
+                    </ImageView>
+
+                    <EditText
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:backgroundTint="#676767"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:fontFamily="@font/kanit_regular"
+                        android:hint="เลือกวันที่"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/ic_clock"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_clock">
+
+                    </ImageView>
+
+                    <EditText
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:backgroundTint="#676767"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:fontFamily="@font/kanit_regular"
+                        android:hint="เลือกเวลา"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/ic_detail"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_datail">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:text="ลักษณะ/สี"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kanit_regular"
+                            android:text="ปาก"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/mouth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#676767"
+                            android:fontFamily="@font/kanit_regular"
+                            android:inputType="text"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/linearLayout2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kanit_regular"
+                            android:text="ตัว"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/body"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#676767"
+                            android:fontFamily="@font/kanit_regular"
+                            android:inputType="text"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kanit_regular"
+                            android:text="ปีก"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/wings"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#676767"
+                            android:fontFamily="@font/kanit_regular"
+                            android:inputType="text"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/linearLayout3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kanit_regular"
+                            android:text="ขา"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/legs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#676767"
+                            android:fontFamily="@font/kanit_regular"
+                            android:inputType="text"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kanit_regular"
+                            android:text="หาง"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/tail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#676767"
+                            android:fontFamily="@font/kanit_regular"
+                            android:inputType="text"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/linearLayout4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/kanit_regular"
+                            android:text="อื่นๆ"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/other"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#676767"
+                            android:fontFamily="@font/kanit_regular"
+                            android:inputType="text"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_bg2"
+                android:fontFamily="@font/kanit_regular"
+                android:text="บันทึก"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"></Button>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

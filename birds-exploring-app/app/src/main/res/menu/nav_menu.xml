@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/edit_btn"
+            android:title="แก้ไข"
+            android:icon="@drawable/ic_edit"
+            app:showAsAction="ifRoom"/>
+    </group>
+
+    <item
+        android:title=""
+        android:id="@+id/setting_btn"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="always">
+
+
+
+        <menu>
+
+
+
+            <group android:id="@+id/grp2">
+                <item
+                    android:id="@+id/delete_btn"
+                    android:title="ลบ"
+                    android:icon="@drawable/ic_delete"
+                    app:showAsAction="ifRoom"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

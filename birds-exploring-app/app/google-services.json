@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "976176723766",
+    "firebase_url": "https://bird-exploring.firebaseio.com",
+    "project_id": "bird-exploring",
+    "storage_bucket": "bird-exploring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976176723766:android:261d9c11cee10b7f10e597",
+        "android_client_info": {
+          "package_name": "com.example.finaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976176723766-4cps641u36mpbfan9kcfk0reh8d20evq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByUj-jF3H_s4qlOBb_WMBAdP3Kr9Gi6kE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976176723766-4cps641u36mpbfan9kcfk0reh8d20evq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

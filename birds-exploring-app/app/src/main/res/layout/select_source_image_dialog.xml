@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="เลือกรูปภาพ"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/relative_layout"
+            android:background="?android:attr/listDivider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_image"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="15dp"
+        android:background="?attr/selectableItemBackground">
+        <ImageView
+            android:id="@+id/imgview1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_select_image" />
+        <TextView
+            android:layout_toRightOf="@+id/imgview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="คลังรูปภาพ"
+            android:textColor="#000000"
+            android:fontFamily="@font/kanit_regular"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/take_picture"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="15dp"
+        android:background="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgview2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_take_picture" />
+            <TextView
+                android:layout_toRightOf="@+id/imgview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/kanit_regular"
+                android:layout_centerInParent="true"
+                android:text="ถ่ายรูป"
+                android:layout_marginLeft="16dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

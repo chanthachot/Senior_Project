@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ashik94vc:ElegantNumberButton:v1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/391afa351c31a5fdb9f37367b4eadd33/jetified-ElegantNumberButton-v1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/391afa351c31a5fdb9f37367b4eadd33/jetified-ElegantNumberButton-v1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/391afa351c31a5fdb9f37367b4eadd33/jetified-ElegantNumberButton-v1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ashik94vc/ElegantNumberButton/v1.0.3/687fafb67bedbe6883dad35735fa955e7b7b7a21/ElegantNumberButton-v1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ashik94vc/ElegantNumberButton/v1.0.3/778f1d310df960c169055a0ca55b2951f160eced/ElegantNumberButton-v1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

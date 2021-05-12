@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="หน้าหลัก"
+        android:icon="@drawable/ic_home_24"/>
+    <item
+        android:id="@+id/nav_explore"
+        android:title="สำรวจ"
+        android:icon="@drawable/ic_explore"/>
+    <item
+        android:id="@+id/nav_route"
+        android:title="เส้นทาง"
+        android:icon="@drawable/ic_map_24"/>
+    <item
+        android:id="@+id/nav_found_bird"
+        android:title="พบนก"
+        android:icon="@drawable/ic_bookmark_24" />
+</menu>
