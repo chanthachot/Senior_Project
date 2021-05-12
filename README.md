@@ -10,8 +10,8 @@
 
 #### Installation
 
-1. Dump Database **bird.sql** และ **qrcode.sql** ในโฟลเดอร์ **database** ลงใน PHPMyadmin
-2. นำโฟลเดอร์ **birds-exploring-backend** ไปไว้บน Server
+1. Dump Database *bird.sql* และ *qrcode.sql* ในโฟลเดอร์ *database* ลงใน PHPMyadmin
+2. นำโฟลเดอร์ *birds-exploring-backend* ไปไว้บน Server
 
 #### หน้าจอการทำงานของเว็บไซต์
 
@@ -210,10 +210,10 @@
 
 #### Installation
 
-1. Dump Database **bird.sql** และ **qrcode.sql** ในโฟลเดอร์ **database** ลงใน PHPMyadmin
-2. นำโฟลเดอร์ **birds-exploring-backend** ไปไว้บน Server
-3. ใช้ Android Studio เปิดโฟลเดอร์ **birds-exploring-app** และรันลง Emulator
-4. ใช้ Node ในการเปิด API ในโฟลเดอร์ **BirdAPI**
+1. Dump Database *bird.sql* และ *qrcode.sql* ในโฟลเดอร์ *database* ลงใน PHPMyadmin
+2. นำโฟลเดอร์ *birds-exploring-backend* ไปไว้บน Server
+3. ใช้ Android Studio เปิดโฟลเดอร์ *birds-exploring-app* และรันลง Emulator
+4. ใช้ Node ในการเปิด API ในโฟลเดอร์ *BirdAPI*
 
 #### หน้าจอการทำงานของแอปพลิเคชัน
 
