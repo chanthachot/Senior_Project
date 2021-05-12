@@ -22,7 +22,7 @@ $rowcount = mysqli_num_rows($query);
     ?>
     <tr>
         <td><?php echo $row2['bird_pic_name']; ?></td>
-        <td class="text-center"><img src="/birds-exploring/backend/birddb/dist/birds_img/<?php echo $row2['bird_pic_name']; ?>" name="image_edit_birds" id="image_edit_birds" style="width: 70%;height: auto;object-fit: cover;"></td>
+        <td class="text-center"><img src="/birds-exploring-backend/backend/birddb/dist/birds_img/<?php echo $row2['bird_pic_name']; ?>" name="image_edit_birds" id="image_edit_birds" style="width: 70%;height: auto;object-fit: cover;"></td>
         <td class="text-center" div class="red">
         
         <?php if($rowcount <= 1){ ?>

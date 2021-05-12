@@ -60,7 +60,7 @@ class scan_adapter(
         val itemsModal = itemsModalList[position]
         holder.tv_bird_name?.text = itemsModal.bird_name
         holder.tv_bird_family_name?.text = itemsModal.bird_family_name
-        holder.iv_bird.load("http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/birds_img/" + itemsModal.bird_pic_name) {
+        holder.iv_bird.load("http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/birds_img/" + itemsModal.bird_pic_name) {
             placeholder(shimmerDrawable)
             crossfade(true)
         }

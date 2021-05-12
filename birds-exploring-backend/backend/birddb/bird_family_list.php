@@ -27,7 +27,7 @@ $query = mysqli_query($con2, $sql);
 
         <td><?= $row['bird_family_id'] ?></td>
         <td><?= $row['bird_family_name'] ?></td>
-        <td><img src="<?php $workDir ?>/birds-exploring/backend/birddb/dist/bird_family_img/<?= $row['bird_family_pic'] ?>" style="width:100%;height:auto;"></td>
+        <td><img src="<?php $workDir ?>/birds-exploring-backend/backend/birddb/dist/bird_family_img/<?= $row['bird_family_pic'] ?>" style="width:100%;height:auto;"></td>
         <td class="text-center">
           <a href='birds.php?bird_family_id=<?= $row['bird_family_id']; ?>&bird_family_name=<?= $row['bird_family_name'] ?>'>
             <i class='fa fa-crow'></i>
@@ -37,7 +37,7 @@ $query = mysqli_query($con2, $sql);
 
         <td class="text-center">
 
-          <button type="summit" class="btn btn-warning btn-sm" id="btnEditBirdFamily" data-data_edit_bird_family_bird_family_id="<?php echo $row['bird_family_id']; ?>" data-data_edit_bird_family_bird_family_name="<?php echo $row['bird_family_name']; ?>" data-data_edit_bird_family_bird_family_pic="/birds-exploring/backend/birddb/dist/bird_family_img/<?php echo $row['bird_family_pic']; ?>" data-target="#editBirdFamilyModal" data-toggle="modal">
+          <button type="summit" class="btn btn-warning btn-sm" id="btnEditBirdFamily" data-data_edit_bird_family_bird_family_id="<?php echo $row['bird_family_id']; ?>" data-data_edit_bird_family_bird_family_name="<?php echo $row['bird_family_name']; ?>" data-data_edit_bird_family_bird_family_pic="/birds-exploring-backend/backend/birddb/dist/bird_family_img/<?php echo $row['bird_family_pic']; ?>" data-target="#editBirdFamilyModal" data-toggle="modal">
             <span style="color: white;">
               <i class='fa fa-pen'></i>
               แก้ไข

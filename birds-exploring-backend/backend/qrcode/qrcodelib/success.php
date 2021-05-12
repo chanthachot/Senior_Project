@@ -6,7 +6,7 @@
         <img src="userQr/<?php echo $_GET['qrimage']; ?>" width=250; height=250; alt="">
         <?php
         $workDir = $_SERVER['HTTP_HOST'];
-        $qrlink = $workDir . "/birds-exploring/backend/qrcode/qrcodelib/userQr/" . $_GET['qrimage'];
+        $qrlink = $workDir . "/birds-exploring-backend/backend/qrcode/qrcodelib/userQr/" . $_GET['qrimage'];
         ?>
 
 

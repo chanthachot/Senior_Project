@@ -22,7 +22,7 @@ if (isset($_POST['btnCreateQRCode'])) {
     $qrs = QRcode::png($all_bird, "userQr/$qrImgName.png", "H", "10", "10");
     $qrimage = $qrImgName . ".png";
     $workDir = $_SERVER['HTTP_HOST'];
-    // $qrlink = $workDir . "/birds-exploring/backend/qrcode/qrcodelib/userQr/" . $qrImgName . ".png";
+    // $qrlink = $workDir . "/birds-exploring-backend/backend/qrcode/qrcodelib/userQr/" . $qrImgName . ".png";
 
     $sql2 = "INSERT INTO qrcode(qrcode_bird_name,qrcode_bird_lat,qrcode_bird_lng,qrcode_bird_sciname,qrcode_bird_description,qrcode_bird_pic,qrcode_image,qrcode_timestamp,point_id) 
     VALUES('$array_qrcode_bird_name','$array_qrcode_bird_lat','$array_qrcode_bird_lng','$array_qrcode_bird_sciname','$array_qrcode_bird_description',

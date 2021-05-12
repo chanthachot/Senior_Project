@@ -78,7 +78,7 @@ if ($act == 'update_with_foundbird_pic'){
                 elseif ($info['mime'] == 'image/png') $image = imagecreatefrompng($image_temp_name);
                 imagejpeg($image,$url,80);
                 $workDir = 'http://' . $_SERVER['HTTP_HOST'];
-                $newname = $workDir . '/birds-exploring/backend/birddb/dist/foundbird_img/' . $name;
+                $newname = $workDir . '/birds-exploring-backend/backend/birddb/dist/foundbird_img/' . $name;
             } 
             echo $name;
             /****** insert query here ******/

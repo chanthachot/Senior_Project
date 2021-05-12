@@ -43,7 +43,7 @@ $sql = mysqli_query($con,"SELECT * FROM point WHERE point.path_id = $path_id");
             while ($row2 = mysqli_fetch_array($sql2)) { 
         ?>
 
-        <td><img src="<?php $workDir ?>/birds-exploring/backend/qrcode/qrcodelib/userQr/<?= $row2['qrcode_image'] ?>" style="width:100%;height:auto;"></td>
+        <td><img src="<?php $workDir ?>/birds-exploring-backend/backend/qrcode/qrcodelib/userQr/<?= $row2['qrcode_image'] ?>" style="width:100%;height:auto;"></td>
         
         <?php }}else{ ?>
 

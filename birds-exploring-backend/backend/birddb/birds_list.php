@@ -45,7 +45,7 @@ $query = mysqli_query($con2, $sql);
               <div class="slider">
                 <?php foreach($query2 as $row2){ ?>
                 <div>
-                  <img src="<?php $workDir ?>/birds-exploring/backend/birddb/dist/birds_img/<?= $row2['bird_pic_name'] ?>" style="width:100%;height:auto;">
+                  <img src="<?php $workDir ?>/birds-exploring-backend/backend/birddb/dist/birds_img/<?= $row2['bird_pic_name'] ?>" style="width:100%;height:auto;">
                 </div>
                 <?php } ?>
               </div>

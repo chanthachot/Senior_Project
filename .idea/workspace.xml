@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="955691cb-f6a5-48de-a108-b9044349a72e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-app/app/src/main/java/com/example/finaproject/ServerIP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-app/app/src/main/java/com/example/finaproject/ServerIP.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/birddb/bird_family_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/birddb/bird_family_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/birddb/birds_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/birddb/birds_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/birddb/fetch_image_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/birddb/fetch_image_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/foundbird/foundbirdprivate_crud.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/foundbird/foundbirdprivate_crud.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/foundbird/foundbirdpublic_crud.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/foundbird/foundbirdpublic_crud.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/bird_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/bird_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/fetch_image_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/fetch_image_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/point_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/point_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/qrcodelib/create_qrcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/qrcodelib/create_qrcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/qrcodelib/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/qrcodelib/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/qrcodelib/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/birds-exploring-backend/backend/qrcode/qrcodelib/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_images/mobile/image063.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sS2buAjT4VkEJFWom8TgbBAYFw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/birds-exploring-app" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="955691cb-f6a5-48de-a108-b9044349a72e" name="Default Changelist" comment="" />
+      <created>1620851746343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620851746343</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620851816183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620851816183" />
+  </component>
+</project>

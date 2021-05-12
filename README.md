@@ -4,93 +4,405 @@
 
 #### Tools
 
-- Kotlin
+- PHP
 - MySQL
-- Node.js
-- Android Studio
+- JavaScript
 
 #### Installation
 
-1. Dump Database trader.sql ใน foler database ลงใน PHPMyadmin
-2. ใช้ Android Studio เปิด โฟลเดอร์ trader และรันลง Emulator
-3. ใช้ Node ในการเปิด API ในโฟลเดอร์ traderAPI
+1. Dump Database **bird.sql** และ **qrcode.sql** ในโฟลเดอร์ **database** ลงใน PHPMyadmin
+2. นำโฟลเดอร์ **birds-exploring-backend** ไปไว้บน Server
 
-## หน้าจอการทำงานของแอปพลิเคชัน
+#### หน้าจอการทำงานของเว็บไซต์
+
+> หน้าเข้าสู่ระบบ
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
 
 > หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image007.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> สมัครสมาชิก
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image009.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> เข้าสู่ระบบ
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image011.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าหลัก
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image013.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าการเพิ่มสิ่งของ
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image017.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> เมื่อเพิ่มข้อมูลและรูปภาพเสร็จเรียบร้อย
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image019.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> เมื่อกดบันทึกสิ่งของเรียบร้อย
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image023.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าสิ่งของที่เราลง จะไม่สามารถยื่นข้อเสนอได้
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image025.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าเมื่ออีกฝ่ายต้องการยื่นข้อเสนอเพื่อแลกเปลี่ยน
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image029.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> เมื่อกดยื่นข้อเสนอ
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image031.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าเจ้าของสิ่งของกดยอมรับข้อเสนอ
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image035.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าแก้ไขสิ่งของ
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image037.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
 </p>
 
-> หน้าลบสิ่งของ
+> หน้าแรก
 
 <p align="center">
-  <img src="ui_images/image041.png" width="260"/>
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/web/1.png"/>
+</p>
+
+---
+
+### แอปพลิเคชันสำรวจนก Birds Exploring
+
+#### Tools
+
+- Kotlin
+- MySQL
+- Firebase
+- Node.js
+
+#### Installation
+
+1. Dump Database **bird.sql** และ **qrcode.sql** ในโฟลเดอร์ **database** ลงใน PHPMyadmin
+2. นำโฟลเดอร์ **birds-exploring-backend** ไปไว้บน Server
+3. ใช้ Android Studio เปิดโฟลเดอร์ **birds-exploring-app** และรันลง Emulator
+4. ใช้ Node ในการเปิด API ในโฟลเดอร์ **BirdAPI**
+
+#### หน้าจอการทำงานของแอปพลิเคชัน
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
+</p>
+
+> หน้าแรก
+
+<p align="center">
+  <img src="ui_images/mobile/1.png" width="260"/>
 </p>

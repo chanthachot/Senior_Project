@@ -69,7 +69,7 @@ class fbprivate_detail_fragment : Fragment() {
         tv_tail.text = args.tail
         tv_other.text = args.other
 
-        iv_map.setOnClickListener{
+        iv_map.setOnClickListener {
             var ViewMapFoundbirdPublic = ViewMapFoundbirdPublic()
 
             val bundle = Bundle()
@@ -171,7 +171,7 @@ class fbprivate_detail_fragment : Fragment() {
                     shimmerDrawable.setShimmer(shimmer)
 
                     carouselViewFoundBirdPrivate.setImageListener { position, imageView ->
-                        imageView.load("http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/noimage.jpg") {
+                        imageView.load("http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/noimage.jpg") {
                             placeholder(shimmerDrawable)
                             crossfade(true)
                         }
@@ -202,7 +202,7 @@ class fbprivate_detail_fragment : Fragment() {
         val user = auth.currentUser
 
 
-        if (args.uid == user!!.uid){
+        if (args.uid == user!!.uid) {
             menu.findItem(R.id.edit_btn).isVisible = true
             menu.findItem(R.id.setting_btn).isVisible = true
         }
@@ -267,14 +267,22 @@ class fbprivate_detail_fragment : Fragment() {
                             sweet_warning.dismiss()
                             progressDialog.dismiss()
                             requireActivity().onBackPressed()
-                            Snackbar.make(requireActivity().findViewById(android.R.id.content),"ลบเรียบร้อยแล้ว", Snackbar.LENGTH_LONG).show()
+                            Snackbar.make(
+                                requireActivity().findViewById(android.R.id.content),
+                                "ลบเรียบร้อยแล้ว",
+                                Snackbar.LENGTH_LONG
+                            ).show()
                         }
 
                         override fun onFailure(call: Call<FoundBirdDB>, t: Throwable) {
                             sweet_warning.dismiss()
                             progressDialog.dismiss()
                             requireActivity().onBackPressed()
-                            Snackbar.make(requireActivity().findViewById(android.R.id.content),"เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง", Snackbar.LENGTH_LONG).show()
+                            Snackbar.make(
+                                requireActivity().findViewById(android.R.id.content),
+                                "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง",
+                                Snackbar.LENGTH_LONG
+                            ).show()
 
                         }
 

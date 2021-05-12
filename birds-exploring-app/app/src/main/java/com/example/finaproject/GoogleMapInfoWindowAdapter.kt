@@ -44,7 +44,7 @@ class GoogleMapInfoWindowAdapter(var context: Context) : GoogleMap.InfoWindowAda
         shimmerDrawable.setShimmer(shimmer)
 
         val url_bird_pic =
-            "http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/birds_img/" + infoWindowData!!.bird_pic_name
+            "http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/birds_img/" + infoWindowData!!.bird_pic_name
 
         Picasso.with(context)
             .load(url_bird_pic)

@@ -81,7 +81,7 @@ class BirdDetailFragment : Fragment() {
                         val shimmerDrawable = ShimmerDrawable()
                         shimmerDrawable.setShimmer(shimmer)
 
-                        arrayPic.add("http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/birds_img/" + it.bird_pic_name)
+                        arrayPic.add("http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/birds_img/" + it.bird_pic_name)
 
                         carouselView.setImageListener { position, imageView ->
                             imageView.load(arrayPic[position]) {
@@ -113,7 +113,7 @@ class BirdDetailFragment : Fragment() {
                     shimmerDrawable.setShimmer(shimmer)
 
                     carouselView.setImageListener { position, imageView ->
-                        imageView.load("http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/noimage.jpg") {
+                        imageView.load("http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/noimage.jpg") {
                             placeholder(shimmerDrawable)
                             crossfade(true)
                         }

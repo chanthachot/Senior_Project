@@ -49,7 +49,7 @@ class GoogleMapInfoWindowQRCodeAdapter(var context: Context) : GoogleMap.InfoWin
 
 
             val url_bird_qrcode =
-                "http://" + ServerIP().server_ip + "/birds-exploring/backend/qrcode/qrcodelib/userQr/" + InfoWindowData!!.qrcode_image
+                "http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/qrcode/qrcodelib/userQr/" + InfoWindowData!!.qrcode_image
 
             Picasso.with(context)
                 .load(url_bird_qrcode)

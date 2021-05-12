@@ -39,7 +39,7 @@ $query2 = mysqli_query($con2, $sql2);
         <td><?= $row['bird_sciname'] ?></td>
         <td><?= $row['bird_description'] ?></td>
         <?php $workDir = $_SERVER['HTTP_HOST']; ?>
-        <td><img src="<?php $workDir ?>/birds-exploring/backend/birddb/dist/birds_img/<?= $row['bird_pic'] ?>" style="width:100%;height:auto;"></td>
+        <td><img src="<?php $workDir ?>/birds-exploring-backend/backend/birddb/dist/birds_img/<?= $row['bird_pic'] ?>" style="width:100%;height:auto;"></td>
 
         <td class="text-center" div class="red">
 

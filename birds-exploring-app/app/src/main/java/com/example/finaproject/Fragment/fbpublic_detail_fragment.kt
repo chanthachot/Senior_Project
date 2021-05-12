@@ -162,7 +162,7 @@ class fbpublic_detail_fragment : Fragment() {
                     shimmerDrawable.setShimmer(shimmer)
 
                     carouselViewFoundBirdPublic.setImageListener { position, imageView ->
-                        imageView.load("http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/noimage.jpg") {
+                        imageView.load("http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/noimage.jpg") {
                             placeholder(shimmerDrawable)
                             crossfade(true)
                         }

@@ -58,7 +58,7 @@ class add_found_bird_bird_family_adapter(
 
         val itemsModal = itemsModalList[position]
         holder.tv_bird_family_name?.text = itemsModal.bird_family_name
-        holder.iv_birdFamily.load("http://" + ServerIP().server_ip + "/birds-exploring/backend/birddb/dist/bird_family_img/" + itemsModal.bird_family_pic) {
+        holder.iv_birdFamily.load("http://" + ServerIP().server_ip + "/birds-exploring-backend/backend/birddb/dist/bird_family_img/" + itemsModal.bird_family_pic) {
             placeholder(shimmerDrawable)
             crossfade(true)
         }

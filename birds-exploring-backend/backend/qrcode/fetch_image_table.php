@@ -22,7 +22,7 @@ $row = mysqli_fetch_assoc($query);
     ?>
     <tr>
         <td><?php echo $row2['qrcode_id']; ?></td>
-        <td class="text-center"><img src="/birds-exploring/backend/qrcode/qrcodelib/userQr/<?php echo $row2['qrcode_image']; ?>" name="image_edit_birds" id="image_edit_birds" style="width: 70%;height: auto;object-fit: cover;"></td>
+        <td class="text-center"><img src="/birds-exploring-backend/backend/qrcode/qrcodelib/userQr/<?php echo $row2['qrcode_image']; ?>" name="image_edit_birds" id="image_edit_birds" style="width: 70%;height: auto;object-fit: cover;"></td>
         <td><?php echo $row2['qrcode_timestamp']; ?></td>
         <td class="text-center" div class="red">
         <button type="button" class="deleteQRCodeModal btn btn-danger btn-sm" id="<?= $row2['qrcode_id']?>" 
